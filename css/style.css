@@ -362,9 +362,11 @@ footer {
 .edu-au-vic-wa-nt-pre-custom {
     font-family: "Edu AU VIC WA NT Pre", cursive;
     font-optical-sizing: auto;
-    font-weight: 400; /* Cambia este valor a 700 si deseas un peso más grueso */
+    font-weight: 400; 
 }
-
+p {
+    font-family: 'Rubik', sans-serif; /* Usar Rubik para párrafos */
+}
 
 /* Responsive */
 
