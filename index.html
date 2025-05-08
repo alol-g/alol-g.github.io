@@ -378,7 +378,29 @@
         </div>
         <div class="author"> Alol (2024) &#169; </div>
     </footer>
-
+    <!-- Botón que abre el modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">
+    Abrir Modal
+  </button>
+  
+  <!-- Estructura del Modal -->
+  <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="miModalLabel">Hola desde el modal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          Aquí puedes poner información, imágenes o lo que quieras mostrar.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
     <!-- Bootstrap JS offline -->
     <!--script src="./js/bootstrap.min.js"></script-->    
     <!-- Bootstrap JS online -->
@@ -387,5 +409,8 @@
         crossorigin="anonymous"></script>
     <!-- My JS -->
     <script src="./js/main.js"></script>    
+
+
+    
 </body>
 </html>
